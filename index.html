@@ -1,23 +1,119 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
 
-<div class="home">
+<title>
+CSS test
+</title>
 
-  <h1 class="page-heading">Posts</h1>
+<style>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+#col {border-style:solid;}
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+h1 {
+background-color:orange;
+font-family:times;
+}
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+h2 {
+background-color:orange;
+font-family:times;
+}
 
-</div>
+p {
+font-family:monospace;
+font-size:150%;
+}
+
+body {
+font-family:monospace;
+font-size:150%;
+}
+
+</style>
+
+</head>
+
+<body>
+<h1>Welcome to my CSS test site</h1>
+
+<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcStwgCNgyd2GWCUF7
+_iVmnvrERkeqy7CALJaubpwu6NzOcz4Mxf">
+
+<h2>Content:</h2>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#log">log</a></li>
+</ul>
+
+<h2 id="introduction">introduction:</h2>
+<p>Hello, my name is sietse.<br>
+I live in the netherlands.<br>
+and i'm starting to learn html and css,<br>
+thats where this site come's in.<br>
+this site is basically my testing ground for everything,<br>
+i learn in css.<br></p>
+
+<h2 id="log">log:</h2>
+
+<h3 id="col">content of logs:</h3>
+<ul>
+<li><a href="#1">Day 1</a></li>
+<li><a href="#2">Day 2</a></li>
+<li><a href="#3">Day 3</a></li>
+<li><a href="#4">Day 4</a></li>
+<li><a href="#5">Day 5</a></li>
+<li><a href="#6">Day 6</a></li>
+<li><a href="#7">Day 7</a></li>
+<li><a href="#8">Day 8</a></li>
+<li><a href="#9">Day 9</a></li>
+<li><a href="#10">Day 10</a></li>
+</ul>
+
+<p id="1"><strong>Day 1</strong></p>
+<p>So i just made this page today, 
+and i'm kinda happy about it.<br>
+I just wrote the basics in html,<br>
+and decided that i'm gonna make this site look good.<br>
+i also made a table of content,<br>
+and some other neat things.<br>
+I believe thats all for today.<br>
+-Sietse</p>
+
+<p id="2"><strong>Day 2</strong></p>
+<p>write stuff here for day 2<br>
+-Sietse</p>
+
+<p id="3"><strong>Day 3</strong></p>
+<p>write stuff here for day 3<br>
+-Sietse</p>
+
+<p id="4"><strong>Day 4</strong></p>
+<p>write stuff here for day 4<br>
+-Sietse</p>
+
+<p id="5"><strong>Day 5</strong></p>
+<p>write stuff here for day 5<br>
+-Sietse</p>
+
+<p id="6"><strong>Day 6</strong></p>
+<p>write stuff here for day 6<br>
+-Sietse</p>
+
+<p id="7"><strong>Day 7</strong></p>
+<p>write stuff here for day 7<br>
+-Sietse</p>
+
+<p id="8"><strong>Day 8</strong></p>
+<p>write stuff here for day 8<br>
+-Sietse</p>
+
+<p id="9"><strong>Day 9</strong></p>
+<p>write stuff here for day 9<br>
+-Sietse</p>
+
+<p id="10"><strong>Day 10</strong></p>
+<p>write stuff here for day 10<br>
+-Sietse</p>
+
+</body>
